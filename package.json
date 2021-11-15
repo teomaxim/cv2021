@@ -6,7 +6,7 @@
     "dev": "next dev",
     "dev-debug": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "@react-three/drei": "^7.16.7",
