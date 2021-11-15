@@ -14,7 +14,7 @@ app.prepare().then(() => {
     return handle(req, res);
   });
 
-  const PORT = process.env.PORT || 6969;
+  const PORT = $PORT || 6969;
 
   server.listen(PORT, (err) => {
     if (err) console.log(err);
